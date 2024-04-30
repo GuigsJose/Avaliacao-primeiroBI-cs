@@ -34,3 +34,26 @@ moto.Cilindradas = 250;
 Bicicleta bike = new Bicicleta(0);
 bike.Rodas = 2;
 bike.NumeroMarchas = 7;
+
+// ex 7
+
+ContaCorrente cr = new ContaCorrente();
+cr.NumeroConta = "123321";
+cr.Saldo = 2000;
+cr.Depositar(1000);
+cr.Sacar(200);
+cr.ExibeInfo();
+
+ContaPoupanca cp = new ContaPoupanca(0.5);
+cp.NumeroConta = "989893";
+cp.Depositar(2000);
+cp.CalcularJuros();
+cp.Sacar(100);
+cp.ExibeInfo();
+
+ContaEmpresarial ce = new ContaEmpresarial(5000);
+ce.Depositar(5600);
+ce.NumeroConta = "923847628";
+ce.Sacar(100);
+ce.ExibeInfo();
+ce.VerificaSaldoMinimo();
