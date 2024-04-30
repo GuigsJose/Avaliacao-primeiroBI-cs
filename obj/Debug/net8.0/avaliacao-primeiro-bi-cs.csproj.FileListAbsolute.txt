@@ -1,0 +1,15 @@
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\bin\Debug\net8.0\avaliacao-primeiro-bi-cs.exe
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\bin\Debug\net8.0\avaliacao-primeiro-bi-cs.deps.json
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\bin\Debug\net8.0\avaliacao-primeiro-bi-cs.runtimeconfig.json
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\bin\Debug\net8.0\avaliacao-primeiro-bi-cs.dll
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\bin\Debug\net8.0\avaliacao-primeiro-bi-cs.pdb
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.AssemblyInfoInputs.cache
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.AssemblyInfo.cs
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.csproj.CoreCompileInputs.cache
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.sourcelink.json
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.dll
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\refint\avaliacao-primeiro-bi-cs.dll
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.pdb
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\avaliacao-primeiro-bi-cs.genruntimeconfig.cache
+C:\Users\guize\Desktop\avaliacao-primeiro-bi-cs\obj\Debug\net8.0\ref\avaliacao-primeiro-bi-cs.dll

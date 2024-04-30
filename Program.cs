@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//ex 3 
+Animal animal1 = new Cachorro();
+Animal animal2 = new Gato();
+
+animal1.EmitirSom();//latindo
+animal2.EmitirSom();//miando
