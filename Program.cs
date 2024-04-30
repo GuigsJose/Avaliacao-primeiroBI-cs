@@ -21,3 +21,16 @@ filme.RegistrarLocacao();
 filme.VerificaDisponibilidade();
 filme.RegistrarDevolucao();
 filme.VerificaDisponibilidade();
+
+//ex 6 
+Carro carro = new Carro(0);
+carro.Rodas = 4;
+carro.Portas = 2;
+
+Moto moto = new Moto(0);
+moto.Rodas = 2;
+moto.Cilindradas = 250;
+
+Bicicleta bike = new Bicicleta(0);
+bike.Rodas = 2;
+bike.NumeroMarchas = 7;
