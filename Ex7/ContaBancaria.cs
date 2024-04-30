@@ -1,6 +1,6 @@
 // ex7
 
-public class ContaBancaria : IContaBancaria{
+public class ContaBancaria{
     
     public ContaBancaria(){
         Saldo = 0;
