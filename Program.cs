@@ -57,3 +57,30 @@ ce.NumeroConta = "923847628";
 ce.Sacar(100);
 ce.ExibeInfo();
 ce.VerificaSaldoMinimo();
+
+// ex 8
+
+Espanhol espanhol = new Espanhol();
+espanhol.nota1 = 7.0;
+espanhol.nota2 = 9.0;
+espanhol.nota3 = 4.0;
+System.Console.WriteLine("Espanhol: ");
+Console.WriteLine(espanhol.CalcularMedia()); 
+System.Console.WriteLine(espanhol.Certificado());
+
+Frances frances = new Frances();
+frances.nota1 = 9.0;
+frances.nota2 = 8.0;
+frances.nota3 = 3.0;
+
+System.Console.WriteLine("Frances:");
+Console.WriteLine(frances.CalcularMedia());
+System.Console.WriteLine(frances.Certificado());
+
+Ingles ingles = new Ingles();
+ingles.nota1 = 9.0;
+ingles.nota2 = 8.0;
+ingles.nota3 = 3.0;
+System.Console.WriteLine("Ingles:");
+Console.WriteLine(ingles.CalcularMedia());
+System.Console.WriteLine(ingles.Certificado());
