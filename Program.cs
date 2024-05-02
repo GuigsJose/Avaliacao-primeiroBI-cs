@@ -105,3 +105,25 @@ transferenciaBancaria.RealizarPagamento(250.00);
 transferenciaBancaria.Status();
 transferenciaBancaria.RealizarPagamento(3000);
 transferenciaBancaria.Status();
+
+// ex10
+
+VooRegular vooRegular = new VooRegular("12/04/24","Curitiba","Ceará");
+vooRegular.Reservar();
+vooRegular.Status();
+vooRegular.Cancelar();
+vooRegular.Status();
+
+VooUpgrade vooUpgrade = new VooUpgrade("13/04/24", "Maringá", "Mynokos");
+vooUpgrade.Reservar();
+vooUpgrade.Status();
+vooUpgrade.Cancelar();
+vooUpgrade.Status();
+
+VooGrupoGrande vooGrupoGrande = new VooGrupoGrande("14/04/24", "São Paulo", "Estados Unidos");
+vooGrupoGrande.Reservar();
+vooGrupoGrande.Status();
+vooGrupoGrande.Cancelar();
+vooGrupoGrande.Status();
+
+
