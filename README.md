@@ -4,6 +4,8 @@
 
 ## Realize o que se pede:
 
+### EXECICIOS 4 AO 10 ESTÃO EM FORMA DE CÓDIGO EM SUAS DEVIDAS PASTAS REFERENTE AO EXERCICIO!!!!
+
 1.	Explique o que é herança em orientação a objetos e como ela é implementada em C#. Dê um exemplo prático de como a herança pode ser utilizada em um sistema de gerenciamento de funcionários.
 ```
 R: A Herança possibilita que as classes compartilhem seus atributos, métodos e outros membros da classe entre si. Onde classes derivadas herdam atributos de classes bases. Por exemplo:
