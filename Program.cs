@@ -84,3 +84,13 @@ ingles.nota3 = 3.0;
 System.Console.WriteLine("Ingles:");
 Console.WriteLine(ingles.CalcularMedia());
 System.Console.WriteLine(ingles.Certificado());
+
+// ex9
+
+CartaoDeCredito cartaoCredito = new CartaoDeCredito(1600,250980,"10/24");
+
+cartaoCredito.RealizarPagamento(1400);
+cartaoCredito.Status();
+
+cartaoCredito.RealizarPagamento(1700);
+cartaoCredito.Status();
