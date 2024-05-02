@@ -94,3 +94,14 @@ cartaoCredito.Status();
 
 cartaoCredito.RealizarPagamento(1700);
 cartaoCredito.Status();
+
+BoletoBancario boletoBancario = new BoletoBancario(6478,2500.0);
+boletoBancario.RealizarPagamento(2500.0);
+boletoBancario.Status();
+Console.WriteLine("Vencido?"+ boletoBancario.BoletoVencido(false));
+
+TransferenciaBancaria transferenciaBancaria = new TransferenciaBancaria(1500.00);
+transferenciaBancaria.RealizarPagamento(250.00);
+transferenciaBancaria.Status();
+transferenciaBancaria.RealizarPagamento(3000);
+transferenciaBancaria.Status();
