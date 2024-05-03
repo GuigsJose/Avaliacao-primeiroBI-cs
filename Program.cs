@@ -108,22 +108,35 @@ transferenciaBancaria.Status();
 
 // ex10
 
-VooRegular vooRegular = new VooRegular("12/04/24","Curitiba","Ceará");
-vooRegular.Reservar();
-vooRegular.Status();
-vooRegular.Cancelar();
-vooRegular.Status();
+// VooRegular vooRegular = new VooRegular("12/04/24","Curitiba","Ceará");
+// vooRegular.Reservar();
+// vooRegular.Status();
+// vooRegular.Cancelar();
+// vooRegular.Status();
 
-VooUpgrade vooUpgrade = new VooUpgrade("13/04/24", "Maringá", "Mynokos");
-vooUpgrade.Reservar();
-vooUpgrade.Status();
-vooUpgrade.Cancelar();
-vooUpgrade.Status();
+// VooUpgrade vooUpgrade = new VooUpgrade("13/04/24", "Maringá", "Mynokos");
+// vooUpgrade.Reservar();
+// vooUpgrade.Status();
+// vooUpgrade.Cancelar();
+// vooUpgrade.Status();
 
-VooGrupoGrande vooGrupoGrande = new VooGrupoGrande("14/04/24", "São Paulo", "Estados Unidos");
-vooGrupoGrande.Reservar();
-vooGrupoGrande.Status();
-vooGrupoGrande.Cancelar();
-vooGrupoGrande.Status();
+// VooGrupoGrande vooGrupoGrande = new VooGrupoGrande("14/04/24", "São Paulo", "Estados Unidos");
+// vooGrupoGrande.Reservar();
+// vooGrupoGrande.Status();
+// vooGrupoGrande.Cancelar();
+// vooGrupoGrande.Status();
 
+Balcao gol = new Balcao();
+Reserva regular = new Reserva("13/04/24","Curitiba","Ceará");
+//LOGICA DE DEFINIÇÃO DE ESTADO DA RESERVA
+gol.Reserva(regular);
 
+ReservaUpgrade ru = new ReservaUpgrade("14/04/24","Maringá","Mynokos");
+gol.Reserva(ru);
+
+ReservaGrande rg = new ReservaGrande("15/04/24","São Paulo","Canadá");
+gol.Reserva(rg);
+
+System.Console.WriteLine(gol.Reserva(regular));
+System.Console.WriteLine(gol.Reserva(ru));
+System.Console.WriteLine(gol.Reserva(rg));

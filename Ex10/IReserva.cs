@@ -1,8 +1,7 @@
 // ex10
 
 public interface IReserva{
-
-    void Reservar();
-    void Cancelar();
-    void Status();
+    public void Cancelar();
+    public void Reservar();
+    public void Status();
 }
